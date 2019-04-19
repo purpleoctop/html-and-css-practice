@@ -9,26 +9,36 @@
 <body>
    <h1>Registration Form</h1>
    <form action="/">
-       <label for="Phone">Phone</label>
-       <input id="Phone" type="number" name="Phone" required> <br><br>
+       <label for="name">Name</label>
+       <input id="name" type="text" name="name" required placeholder="Artisanal Kale"> <br><br>
+
        <label for="email">E-mail</label>
-       <input id="email" type="email" name="E-mail" required> <br><br>
+       <input id="email" type="email" name="E-mail" required placeholder="bootstrap@example.com"> <br><br>
+
        <label for="password">Password</label>
-       <input id="password" type="password" name="password" required> <br><br>
-       <label for="confpassword">Confirm Password</label>
-       <input id="confpassword" type="password" name="password" required> <br><br>
-       <label for="nickname">Nickname</label>
-       <input id="nickname" type="text" name="nickname" required> <br><br>
-       <label for="residence">Habitual Residence</label>
-       <select  id="residence" type="text" name="residence"  required>
-           <option>Zhejiang</option>
-           <option>Hangzhou</option>
-           <option>West Lake</option>
-        </select> <br><br>
-        <label for="Website">Website</label>
-        <input id="Website" type="url" name="website" required> <br><br>
-        <input id="checkbox" type="checkbox" name="checkbox" required> 
-        <label for="checkbox">I have read the <a href="google.com">agreement</a></label><br><br>
-       <input type="submit" value="Register">
+       <input id="password" type="password" name="password" required placeholder="password"> <br><br>
+
+       <label for="number">Number</label>
+       <input id="number" type="number" name="number" required placeholder="42"> <br><br>
+
+       <label for="date">Date</label>
+       <input id="date" type="date" name="date" required > <br><br>
+
+       <label for="time">Time</label>
+       <input  id="time" type="time" name="time"  required > <br><br>
+          
+        
+        <label for="color">Color</label>
+        <input id="color" type="color" name="color" required> <br><br>
+
+        <label for="range">Range</label>
+        <input id="range" type="range" name="range" required> <br><br>
+
+        <label for="descrip">Desctiption</label>
+        <textarea id="desctip" type="text" name="desctip" required> </textarea> <br><br>
+
+       
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
    </form>
 </body>
