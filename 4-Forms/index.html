@@ -15,17 +15,27 @@
        <label for="email">Email address:</label><br>
        <input id="email" type="email" name="E-mail"  placeholder="Enter email" required> <br><br>
 
-       <label for="comm" >Communications: <br>
-       <input id="comm" type="checkbox" name="communications" > Email<br>
-       <input id="comm" type="checkbox" name="communications" > SMS <br>
-       <input id="comm" type="checkbox" name="communications"  checked > Phone 
+       <p>Communications:</p>
+       <label for="mail" > 
+       <input id="mail" type="checkbox" name="Email" > Email<br> </label>
+
+       <label for="sms" > 
+       <input id="sms" type="checkbox" name="sms" > SMS <br> </label>
+
+       <label for="phone" > 
+       <input id="phone" type="checkbox" name="phone"  checked > Phone 
     </label> <br><br>
 
-    <label for="comm">User Group: <br>
-        <input id="comm" type="radio" name="communications" checked >Sales Person
-        <input id="comm" type="radio" name="communications" > Customer <br><br>
+
+    <p>User Group:</p>
+
+    <label for="person"> <br>
+        <input id="person" type="radio" name="communications" checked required>Sales Person  </label>
+
+        <label for="cust"> <br>
+        <input id="cust" type="radio" name="communications" required > Customer <br><br></label>
        
-     </label>
+    
 
      <small>
             Please select user group
