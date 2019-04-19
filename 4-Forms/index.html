@@ -7,38 +7,32 @@
    <title>4-Forms</title>
 </head>
 <body>
-   <h1>Registration Form</h1>
+   <h1>Sign in</h1>
    <form action="/">
-       <label for="name">Name</label>
-       <input id="name" type="text" name="name" required placeholder="Artisanal Kale"> <br><br>
+       <label for="name">Full Name:</label> <br>
+       <input id="name" type="text" name="name" placeholder="Enter full name" required > <br><br>
 
-       <label for="email">E-mail</label>
-       <input id="email" type="email" name="E-mail" required placeholder="bootstrap@example.com"> <br><br>
+       <label for="email">Email address:</label><br>
+       <input id="email" type="email" name="E-mail"  placeholder="Enter email" required> <br><br>
 
-       <label for="password">Password</label>
-       <input id="password" type="password" name="password" required placeholder="password"> <br><br>
+       <label for="comm" >Communications: <br>
+       <input id="comm" type="checkbox" name="communications" > Email<br>
+       <input id="comm" type="checkbox" name="communications" > SMS <br>
+       <input id="comm" type="checkbox" name="communications"  checked > Phone 
+    </label> <br><br>
 
-       <label for="number">Number</label>
-       <input id="number" type="number" name="number" required placeholder="42"> <br><br>
-
-       <label for="date">Date</label>
-       <input id="date" type="date" name="date" required > <br><br>
-
-       <label for="time">Time</label>
-       <input  id="time" type="time" name="time"  required > <br><br>
-          
-        
-        <label for="color">Color</label>
-        <input id="color" type="color" name="color" required> <br><br>
-
-        <label for="range">Range</label>
-        <input id="range" type="range" name="range" required> <br><br>
-
-        <label for="descrip">Desctiption</label>
-        <textarea id="desctip" type="text" name="desctip" required> </textarea> <br><br>
-
+    <label for="comm">User Group: <br>
+        <input id="comm" type="radio" name="communications" checked >Sales Person
+        <input id="comm" type="radio" name="communications" > Customer <br><br>
        
+     </label>
+
+     <small>
+            Please select user group
+     </small> <br><br><br>
+
         <input type="submit" value="Submit">
-        <input type="reset" value="Clear">
+        <input type="reset" value="Cancel">
+        
    </form>
 </body>
