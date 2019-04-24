@@ -1,0 +1,49 @@
+.all {
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+ 
+ 
+ }
+ 
+ .Primary{
+ background-color: blue;
+ color: white;
+ border: 0px;
+ 
+ }
+ 
+ .Default{
+    background-color:white;
+ }
+ 
+ 
+ 
+ .Dashed{
+    background-color:white;
+    border: dashed;
+    border-color: rgb(219, 219, 219);
+    
+ }
+ 
+ 
+ 
+ .Danger{
+    background-color:rgb(230, 227, 227);
+    color: red;
+ }
+
+ .small{
+   height: 23px;
+   width: 75px;
+   font-size:15px;
+ }
+
+
+
+ .large{
+   height: 60px;
+   width: 105px;
+ }

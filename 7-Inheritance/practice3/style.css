@@ -1,0 +1,40 @@
+.all {
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 85px;
+ 
+ 
+ }
+ 
+ .Primary{
+ background-color: blue;
+ color: black;
+ border: 3px;
+ border-color: black;
+ 
+ }
+ 
+ .Default{
+    background-color:white;
+ }
+ 
+ 
+ 
+ .Dashed{
+    background-color:white;
+    border: dashed;
+    border-color: rgb(219, 219, 219);
+ }
+ 
+ 
+ 
+ .Danger{
+    background-color:rgb(230, 227, 227);
+    color: red;
+ }
+
+ .ghost{ 
+   background-color: transparent;
+}
