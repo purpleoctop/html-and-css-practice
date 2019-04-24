@@ -1,0 +1,14 @@
+
+.body {
+    background-color:rgba(142, 231, 253, 0.877);
+    color:black;
+}
+
+.color{
+    color:rgb(58, 136, 132);
+
+}
+
+.color:hover{
+    color:wheat;
+}

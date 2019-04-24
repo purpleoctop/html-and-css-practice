@@ -1,0 +1,22 @@
+
+.color{
+    color:rgb(58, 136, 132);
+
+}
+
+.color:hover{
+    color:wheat;
+}
+
+
+
+.images {
+    border: solid 4px; 
+    border-color: aquamarine;
+}
+
+
+.images:hover{
+
+    border-color: brown;
+}

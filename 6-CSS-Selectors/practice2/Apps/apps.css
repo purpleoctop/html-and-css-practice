@@ -1,0 +1,22 @@
+
+
+
+.gap{
+ color: aquamarine;
+}
+
+.gap:hover{
+color: red
+}
+
+
+.border {
+    border: solid 4px; 
+    border-color: aquamarine;
+}
+
+
+.border:hover{
+
+    border-color: brown;
+}

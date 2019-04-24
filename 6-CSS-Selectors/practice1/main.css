@@ -1,0 +1,47 @@
+.color{
+    background-color:burlywood
+}
+
+.title {
+color:rgb(251, 255, 1);
+}
+
+.animal{
+    color:green;
+
+}
+.animal:hover{
+    color:greenyellow;
+    
+}
+
+
+
+.photo {
+    border: solid 4px; 
+    border-color: aquamarine;
+}
+
+
+.photo:hover{
+
+    border-color: brown;
+}
+
+.dogs{
+    border: solid 4px; 
+    border-color: rgb(66, 27, 204);
+    
+}
+
+
+.cats{
+    border: solid 4px; 
+    border-color: rgb(27, 204, 101); 
+}
+
+
+.parrots{
+    border: solid 4px; 
+    border-color: rgb(201, 111, 27); 
+}
