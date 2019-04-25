@@ -1,0 +1,107 @@
+
+.image{
+    width: 1090px;
+    height:613px;
+}
+div > .color{
+    position:absolute;
+     top:8px;
+
+    background-color: rgba(168, 240, 240, 0.479);
+    width: 1090px;
+    height:613px;
+   
+    
+}
+
+div >.arrow{
+    
+    border: 1px solid black;
+    padding: 2px;
+    background-color:white;
+    font-size: 20px;
+    color:black;
+    text-decoration:none;
+    
+}
+
+
+div > .back{
+    position:absolute;
+    top:555px;
+    left:505px;
+
+   background-color: rgb(252, 187, 8);
+   width: 100px;
+   height:30px;
+}
+
+div > .nature{
+    position:absolute;
+    top:550px;
+    left:515px;
+    font-size: 30px;
+    color:white;
+
+}
+
+
+div > .backh{
+    position:absolute;
+    top:200px;
+    left:200px;
+
+   background-color: white;
+   width: 70px;
+   height:40px;
+}
+
+div > .header{
+    position: absolute;
+    top:200px;
+    left:221px;
+    color:black;
+    font-size:40px;
+    
+}
+
+
+div > .ader{
+    position: absolute;
+    top:200px;
+    left:272px;
+    color:white;
+    font-size:40px;  
+}
+
+ .q1{
+
+    position: absolute;
+    top:240px;
+    left:220px;
+    color:white;
+    font-size:30px;
+}
+
+.q2{
+
+    position: absolute;
+    top:265px;
+    left:220px;
+    color:white;
+    font-size:30px;
+}
+
+
+.one{
+    position: absolute;
+    top:330px;
+    left:1050px;
+}
+
+
+.two{
+    position: absolute;
+    top:330px;
+    left:35px;
+}
