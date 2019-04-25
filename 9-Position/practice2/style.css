@@ -1,0 +1,90 @@
+
+.back{
+    position:relative;
+    width:1306px;
+    height:539px;
+}
+
+
+
+.notify{
+       
+        box-sizing: border-box;
+        position: absolute;
+        top:10%;
+        left:35%;
+        transform: translateX(-50%);
+        height: 150px;
+        width: 450px;
+        margin: 0 auto;
+        border: 1px solid rgba(128, 128, 128, 0.76);
+        border-radius: 3px;
+        background-color: white;
+}
+
+.color{
+    position: absolute;
+    top:11px;
+    background-color: rgba(128, 128, 128, 0.541);
+    width:1306px;
+    height:539px;
+}
+
+div .title{
+    position: absolute;
+    left:20px;
+}
+div .content{
+    position: absolute;
+    left:20px;
+    top: 50px;
+    color:rgb(117, 116, 116);
+}
+div > .line{
+    position:relative;
+    top:50px;
+    height: 1px;
+    width:100%;
+    background-color:rgba(190, 188, 188, 0.808);
+    margin-bottom: 10px;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    text-decoration: none;
+ }
+ .buttons{
+    position: relative;
+     left:300px;
+     top: 80px;
+    padding:7px;
+
+
+ }
+ .buttons > .but{
+     font-size: 15px;
+     border: 1px solid rgba(128, 128, 128, 0.74);
+     border-radius: 3px;
+ }
+
+ div > .ok{
+     background-color: rgb(15, 80, 199);
+     color:white;
+     height: 30px;
+     width:50px;
+ }
+
+ div > .cancel{
+     background-color: white;
+     height: 30px;
+     width:70px;
+ }
+
+ div.second{
+     position: relative;
+     top:90px;
+ }
