@@ -1,0 +1,29 @@
+.image{
+    position: relative;
+    width:900px;
+    height:500px;
+    top:10px;
+}
+
+
+
+.color{
+    position: absolute;
+    width:900px;
+    height:500px;
+    background-color: rgba(128, 128, 128, 0.5);
+    top:17px;
+    
+}
+
+.phrase{
+
+    position: absolute;
+    color:#ffff;
+    font-size: 70px;
+     margin:0px;
+    top:22%;
+    left:15%;
+     z-index: 3;
+     font-weight: bold;
+}
