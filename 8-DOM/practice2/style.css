@@ -1,0 +1,143 @@
+.l{
+    display: inline;
+    padding:4px;
+    }
+    
+    
+    .first{
+    display:inline-block;
+    border: solid 1px rgba(128, 128, 128, 0.5);
+    width:350px;
+    height:100px;
+    padding:15px;
+    
+    }
+    
+    .second{
+       border-bottom: solid 1px  rgba(128, 128, 128, 0.5);
+       border-left: solid 1px  rgba(128, 128, 128, 0.5);
+       border-right: solid 1px  rgba(128, 128, 128, 0.5);
+       width:350px;
+       height:170px;
+       padding:15px;
+    }
+    
+   
+   .title{
+        margin: 0;
+        padding-top:5px;
+    }
+    .files{
+       margin-top: 5px;
+       font-size: 23px;
+    }
+
+    .image{
+        margin-top:13px;
+        height:50px;
+         border-radius: 50%;
+
+      }
+  .profile{
+      
+      display: inline-block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    font-size:17px;
+    
+  }
+
+  div > .date{
+      position: relative;
+      bottom:13px;
+     
+      color:gray;
+      margin-top:0px;
+
+} 
+
+div > .name{
+    position: relative;
+    bottom: 15px;
+    margin:0px;
+    color: black;
+
+}
+
+  div > a{
+      color:rgba(128, 128, 128, 0.562);
+  }
+  
+  .icons{
+      
+   position: relative;
+   bottom:35px;
+   height:20px;
+   width:20px;
+   margin :5px;
+   left:10px;
+  }
+
+.last{
+    left:170px;
+}
+
+.number{
+    position: relative;
+    left:305px;
+    bottom:80px;
+}
+
+div > .more{
+    margin-top:15px;
+    text-decoration: none;
+    padding: 5px;
+}
+.section{
+    display:inline-block;
+    margin-left:10px;
+}
+
+
+.sectwo{
+
+    background-color:white;
+    position: absolute ;
+    top:8px;
+    
+}
+
+
+.icons2{
+      
+    position: relative;
+    bottom:10px;
+    height:20px;
+    width:20px;
+    margin :5px;
+   }
+ 
+ .last2{
+     left:150px;
+ }
+ 
+ .number2{
+     position: relative;
+     left:305px;
+     bottom:55px;
+ }
+
+ .secthree{
+     position: relative;
+     left:388px;
+     bottom:338px;
+     margin: 5px;
+ }
+
+
+ .secfour{
+    position: relative;
+    left:388px;
+    bottom:338px;
+    margin: 5px;
+}
