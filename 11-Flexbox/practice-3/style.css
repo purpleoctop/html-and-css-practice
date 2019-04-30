@@ -1,0 +1,42 @@
+.container{
+    flex-wrap:wrap;
+    display:flex;
+    width:940px;
+    height:500px;
+    justify-content: space-between;
+    
+}
+
+.row{
+    flex-direction: row;
+}
+
+.col-1, .col-2, .col-3, .col-4{
+    height:220px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.col-1{
+    width:220px;
+    
+   }
+.col-2{
+    
+    width:100px;
+    height:100px;
+  
+
+}
+
+.col-3{
+    width:700px;
+    height:220px;
+ 
+}
+
+.col-4{
+    width:460px;
+    margin-bottom:0px;
+   
+}
