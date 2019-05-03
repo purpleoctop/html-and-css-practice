@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Sans Bold'), 
+    local('PTSans-Bold'), 
+    url(../fonts/PTSans-bold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+
+        -moz-osx-font-smoothing:grayscale;
+        -webkit-font-smoothing: antialiased;
+
+}
+
+section{
+    position:relative;
+    width:100vw;
+    height:100vh;
+
+
+}
+
+
+section >.image{
+    position:absolute;
+    top:0;
+    bottom:0;
+ background-image: url("Image-1.png");
+ height:100%;
+ width:100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+
+
+section >.image::after{
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    display:block;
+    content:" ";
+    background-color: #4895E2;
+    opacity: 0.44;
+}
+
+section>.layer::before{
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    display:block;
+    content:" ";
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,1)0%,
+        rgba(0,0,0,0.81)30%,
+        rgba(0,0,0,0.67)47%,
+        rgba(0,0,0,0)100%
+    );
+
+    opacity: 1;
+}
+
+section>.layer{
+    position:absolute;
+    top:0;
+    bottom:0;
+    background-image: url("Image-2.png");
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity:0.87;
+}
+
+
+
+section> .text{
+    position:absolute;
+    top:44.7%;
+    left:24.4%;
+    bottom:0;
+    height:259px;
+    width:990px;
+    font-family:'PT Sans';
+    font-size:200px;
+    line-height:259px;
+    color:white;
+    letter-spacing:40px;
+    font-weight:900;
+}
+
+
