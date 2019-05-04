@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+}
+
+.table{
+    width:940px;
+    height:980px;
+    margin-top:15px;
+    display:grid;
+    grid-gap:20px;
+    grid-template-rows: 220px 100px 220px 220px 220px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    
+
+}
+
+.item{
+    box-sizing: border-box;
+   
+    width:100%;
+    background-color: rgb(187, 185, 185);
+}
+
+.cell-1{
+    
+    grid-column: span 2;
+}
+
+.cell-3{
+    grid-column: span 6;
+}
+
+.cell-4{
+   grid-column:span 4;
+}

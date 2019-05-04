@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+}
+
+.table{
+    width:900px;
+    height:900px;
+    margin-top:15px;
+    display:grid;
+    grid-template-rows:65px 65px 50px 120px 50px 50px 100px 150px 50px 50px 150px;
+    grid-template-columns: 80px 130px 90px 125px 125px 120px 50px 100px 80px;
+   
+}
+
+.item{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width:100%;
+}
+
+.cell-1{
+    grid-row: span 3;
+}
+
+.cell-4{
+    grid-column: span 2;
+}
+
+.cell-9, .cell-5{
+    grid-row: span 2;
+}
+
+.cell-10, .cell-6{
+    grid-row: span 3;
+}
+
+.cell-7, .cell-8{
+    grid-row: span 4;
+}
+
+.cell-11, .cell-32{
+    grid-row: span 3;
+    grid-column: span 2;
+}
+.cell-15{
+    grid-column: span 2;
+}
+
+.cell-16{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cell-17{
+    grid-row: span 4;
+}
+
+
+.cell-19, .cell-33{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cell-20, .cell-34{
+    grid-row: span 2;
+}
+
+.cell-21, .cell-27, .cell-29, .cell-31{
+    grid-row: span 3;
+}
+.cell-22, .cell-26, .cell-28{
+
+    grid-column: span 3;
+}
+
+.cell-23{
+    grid-column: span 2;
+}
+
+.cell-35{
+    grid-column: span 4;
+}
+
+
+  

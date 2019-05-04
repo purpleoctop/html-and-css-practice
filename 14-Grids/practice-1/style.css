@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:0px;
+
+}
+
+.table{
+width:500px;
+height:600px;
+margin-top:15px;
+display: grid;
+grid-template-rows: 150px 250px 80px 120px;
+grid-template-columns: 150px 270px 80px;
+
+}
+
+.item{
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px solid black;
+  
+  }
+
+.cell-2{
+    grid-column: span 2; 
+    grid-row: span 2;
+    background-color: rgb(168, 55, 55)}
+
+
+.cell-5, .cell-4 {
+    grid-row: span 2;
+}
+
+
+
+.cell-4{
+    background-color: rgb(27, 27, 122);
+}
+
+.cell-6{
+    background-color: rgb(250, 250, 85);
+}
