@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    max-width: 1170px;
+   margin:0 auto;
+}
+
+.poster {
+    height: 800px;
+    background-color: #ECF0F1;
+}
+
+header h1 {
+    color: #2C3E50;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-top: 45px;
+    margin-bottom: 8.5px;
+}
+
+header ul {
+    display: flex;
+    color: #A1B1BC;
+}
+
+header ul {
+    padding-bottom: 20px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #A1B1BC;
+}
+
+header ul li {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+
+header ul li::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 12.8px 0 13.2px;
+    background-color: #A1B1BC;
+}
+
+header ul li:last-child::after {
+    content: none;
+}
+
+header ul li:not(:first-of-type) {
+    letter-spacing: -0.1px;
+    word-spacing: 0.5px;
+    margin-left: -2.8px;
+}
+
+.line-by-line p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.card {
+    width: 1142px;
+    height: 165px;
+    border: 1px solid #A1B1BC;
+    border-left: 10px solid #21C2F8;
+    margin: 40px 0 29px 29px;
+}
+
+.card h2 {
+    color: #A1B1BC;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 41.1px 0 10.3px 60.8px;
+}
+
+.card p {
+    color: #A1B1BC;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 60.8px;
+}
+
+.letter {
+    margin-bottom:  38.7px;
+}
+
+.letter::first-letter {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 13px 12px;
+    margin: 5px 5px 0 1px;
+    color: #21C2F8;
+    font-size: 30px;
+    line-height: 15.18px;
+    background-color: #34495E;
+}
+
+.letter p:nth-of-type(3),
+.letter p:nth-of-type(4),
+.letter p:nth-of-type(5) {
+    margin-left: 1px;
+}
+
+.chapter h2 {
+    color: #34495E;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 14.4px;
+}
+
+.chapter p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-bottom: 30px;
+}
