@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+main{
+    width: 1173.35px;
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    font-family: 'Roboto';
+    line-height: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding-top:10px;
+    margin-bottom: 50px;
+}
+header h1{
+    font-size:30px;
+    font-weight: 400;
+    color:#2C3E50;
+}
+header p{
+    padding-top:1px;
+    font-size:16px;
+    color:#A1B1BC;
+    margin-right:0.1px;
+}
+section .comment{
+    font-family:'Roboto';
+    color:#A1B1BC;
+    width: 100%;
+    margin-bottom:74.9;
+}
+
+.user{
+    background-color:white;
+    border:1px solid #ECF0F1;
+    padding: 31.5 0 23px 0;
+    margin-bottom: 24px;
+    display:flex;
+}
+.name-reply{
+    display:flex;
+    justify-content: space-between;
+}
+.user .avatar{
+    background-color: #A1B1BC;
+    min-width: 74px;
+    height: 74px;
+    margin-top:-1px;
+    margin-left: 31px;
+    margin-right: 32px;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+.user .info .name{
+    font-family: 'Roboto';
+    color:#2C3E50;
+    font-size:18px;
+    line-height: 24px;
+    margin-top:-4px;
+    margin-bottom:2px;
+}
+.user .info .date{
+    font-family: 'Roboto';
+    color:#A1B1BC;
+    font-size:13px;
+    line-height: 24px;
+    margin-bottom:5.5px;
+}
+.user .info .text{
+    font-size:14px;
+    line-height: 24px;
+    font-style:italic;
+    color:#A1B1BC;
+    margin-left: -1px;
+    letter-spacing: -0.3px;
+    word-spacing: 1.3px;
+}
+.reply{
+    
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Roboto Black';
+    font-size:14px;
+    line-height: 24px;
+    background-color: #2C3E50;
+    border-radius: 3px;
+    color:#fff;
+    margin-right: 31px;
+    margin-top: -2px;
+    padding-top: 1px;
+}
+.used{
+    background-color:#A1B1BC;
+}
+.second{
+    margin-bottom: 1px;
+}
+.replied{
+    margin-left:50px;
+    padding-left: 19px;
+    margin-bottom: -2px;
+}
+.user.replied .text{
+    margin-bottom:3px;
+}
+.user.replied{
+    margin-bottom:19.5px;
+}
+.comment .user.replied:nth-child(odd){
+    margin-top: 25px;
+    padding-bottom: 22px;
+}
+.comment .user.replied:nth-child(even) .text{
+    margin-bottom:0.5px;
+}
+.comment .user.replied:nth-child(even){
+    padding-top: 32px;
+    margin-bottom: 20.5px;
+    padding-bottom: 24px;
+}
+.correct-padding{
+    padding-bottom:2px;
+}
+.comment .user:last-child{
+    padding-top: 31.5px;
+    padding-bottom: 25px;
+}
+section .user-form{
+    font-family: 'Roboto';
+    line-height: 20px;
+    margin-right:1px;
+}
+section .user-form h1{
+    font-size:30px;
+    font-weight:400;
+    color:#2C3E50;
+    margin-bottom:51px;
+    margin-left:-2px;
+}
+section .user-form form div input{
+    background-color:#F7F8F9;
+    border:3px solid #ECF0F1;
+    border-radius: 3px;
+    width: 370px;
+    height: 50px;
+    font-size:14px;
+    color:#A1B1BC;
+    padding-left:18.6px;
+    margin-bottom:20px; 
+}
+section .user-form form div input:nth-child(even), section .user-form form div input:last-child{
+    padding-left: 15px;
+}
+section .user-form form div{
+    display:flex;
+    justify-content: space-between;
+}
+section .user-form input:hover{
+    background-color:white;
+}
+section .user-form textarea{
+    width:100%;
+    height:300px;
+    margin-bottom: 17px;
+    background-color:#F7F8F9;
+    border:1px solid #ECF0F1;
+    border-radius: 3px;
+}
+section .user-form .button{
+    width: 193px;
+    height: 53px;
+    border-radius: 3px;
+    background-color: #2C3E50;
+    font-family: 'Roboto Black';
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.46px;
+    padding-left: 1px;
+    padding-top: 2px;
+    margin-bottom:40px;
+}
+section .user-form .button:hover{
+	background-color:#2C3E50;
+}
